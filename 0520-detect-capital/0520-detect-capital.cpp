@@ -1,6 +1,6 @@
 class Solution {
 public:
-bool detectCapitalUse(string word) {
+   bool detectCapitalUse(string word) {
        int capitalCount=0;
        int starting;
        if(isupper(word[0]))
