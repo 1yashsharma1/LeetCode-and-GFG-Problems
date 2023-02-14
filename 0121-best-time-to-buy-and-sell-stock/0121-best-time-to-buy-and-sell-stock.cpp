@@ -6,7 +6,7 @@ public:
   if(min_value-prices[i]>0){
     min_value=min(min_value,prices[i]);
   }
-  else if(min_value-prices[i]<0){
+  else{
     max_profit=max(max_profit,prices[i]-min_value);
   }
  }
